@@ -1,0 +1,34 @@
+﻿Построение начато 09.03.2019 17:27:59.
+     1>Проект "D:\Polinom\polinom.cpp\polinom.cpp\polinom.cpp.vcxproj" в узле 2 (целевые объекты build).
+     1>InitializeBuildStatus:
+         Создание "Debug\polinom.cpp.unsuccessfulbuild", так как было задано "AlwaysCreate".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp polinom.cpp transform.cpp
+         polinom.cpp
+     1>d:\polinom\polinom.cpp\polinom.cpp\mlist.h(168): warning C4244: return: преобразование "double" в "int", возможна потеря данных
+         Создание кода...
+     1>d:\polinom\polinom.cpp\polinom.cpp\polinom.cpp(188): warning C4700: использована неинициализированная локальная переменная "ml_current"
+         Пропуск... (изменения не обнаружены)
+         transform.cpp
+         main.cpp
+       ManifestResourceCompile:
+         Для всех выходных данных обновления не требуется.
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Polinom\polinom.cpp\Debug\polinom.cpp.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\polinom.cpp.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\Polinom\polinom.cpp\Debug\polinom.cpp.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Polinom\polinom.cpp\Debug\polinom.cpp.lib" /MACHINE:X86 Debug\polinom.cpp.exe.embed.manifest.res
+         Debug\main.obj
+         Debug\polinom.obj
+         Debug\transform.obj
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\polinom.cpp.exe.embed.manifest" /manifest Debug\polinom.cpp.exe.intermediate.manifest
+         Для всех выходных данных обновления не требуется.
+       LinkEmbedManifest:
+         Для всех выходных данных обновления не требуется.
+         polinom.cpp.vcxproj -> D:\Polinom\polinom.cpp\Debug\polinom.cpp.exe
+       FinalizeBuildStatus:
+         Файл "Debug\polinom.cpp.unsuccessfulbuild" удаляется.
+         Обращение к "Debug\polinom.cpp.lastbuildstate".
+     1>Построение проекта "D:\Polinom\polinom.cpp\polinom.cpp\polinom.cpp.vcxproj" завершено (целевые объекты build).
+
+Построение успешно завершено.
+
+Затраченное время: 00:00:01.52
